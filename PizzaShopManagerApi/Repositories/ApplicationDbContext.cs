@@ -20,5 +20,6 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<Order>().ToTable("Order");
         modelBuilder.Entity<OrderItem>().ToTable("OrderItem");
         modelBuilder.Entity<Customer>().ToTable("Customer");
+        modelBuilder.Entity<User>().ToTable("User");
     }
 }
