@@ -12,4 +12,12 @@ public class UserController(IServiceBase<User> service)
     : ApplicationControllerBase
         <User, UserDtoPostPut, IServiceBase<User>>(service)
 {
+    [HttpGet]
+    [Route("checkaccess")]
+    public IActionResult CheckAccess(string username, string role)
+    {
+        bool hasAccess = _service.CheckAccess(username, role);
+
+        return hasAccess ? Ok() : Forbid();
+    }
 }

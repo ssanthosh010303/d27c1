@@ -12,7 +12,7 @@ public class ApplicationControllerBase<TEntity, TDtoEntity, TService> : Controll
     where TService : IServiceBase<TEntity>
     where TDtoEntity : DtoBase
 {
-    private readonly TService _service;
+    protected readonly TService _service;
 
     public ApplicationControllerBase(TService service)
     {

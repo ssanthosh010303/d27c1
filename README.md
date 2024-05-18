@@ -1,4 +1,4 @@
-# Day-26 Challenge-1: Adding JWT-based Authentication & Authorization to Pizza Shop Management API
+# Day-27 Challenge-1: Adding Role-based Access Control (RBAC) to Pizza Shop Management API
 
 - **Author:** Sakthi Santhosh
 - **Created on:** 17/05/2024
