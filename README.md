@@ -1,4 +1,4 @@
-# Day-25 Challenge-1: Pizza Shop Management API
+# Day-26 Challenge-1: Adding JWT-based Authentication & Authorization to Pizza Shop Management API
 
 - **Author:** Sakthi Santhosh
 - **Created on:** 17/05/2024
